@@ -1,0 +1,100 @@
+
+/* بدي احط خلفية فوق وافصل ال بتوم عن بعض وازبطها*/
+
+
+
+
+.button1{
+  
+  
+   
+   margin-right: 80%;
+}
+
+.button2 {
+    left: 50%;
+}
+
+.hosam{
+   padding-right: ;
+   padding-left: 0%;
+   width: 50px;
+   height: 50px;
+   padding-left: 0%;
+}
+
+
+
+.facebook{
+    width:50px;
+    height:50px;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    padding-left: 0;
+   margin-left: 0;
+}
+
+
+
+
+
+.nav{
+    background-color: brown;
+    font-size: larger;
+    grid-area:nav;
+    
+    
+}
+
+.leftMenu{
+    background-color:yellow;
+    font-size: larger;
+    grid-area:leftMenu ;
+    transform: ;
+}
+
+
+.main{
+
+    background-color: greenyellow;
+    font-size: larger;
+    grid-area: main;
+    height: 900px;
+    width:1500px;
+    text-align: center;
+}
+
+.rightMenu{
+
+background-color: rgb(139, 0, 35);
+
+grid-area: rightMenu;
+text-align: center;
+}
+
+
+.footer{
+
+background-color: darkorange;
+font-size: larger;
+grid-area: footer;
+
+}
+
+
+.constrect{
+
+display: grid;
+grid-template-areas: 
+'nav nav nav nav        '             
+' leftMenu main main rightMenu    '
+' leftMenu  footer footer footer        '
+;
+
+
+}
