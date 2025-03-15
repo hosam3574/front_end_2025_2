@@ -8,11 +8,13 @@
   
   
    
-   margin-right: 80%;
+  
 }
 
 .button2 {
     left: 50%;
+    right: 60%;
+   text-align: right
 }
 
 .hosam{
@@ -23,6 +25,8 @@
    padding-left: 0%;
 }
 
+
+      
 
 
 .facebook{
@@ -56,25 +60,29 @@
     font-size: larger;
     grid-area:leftMenu ;
     transform: ;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/a6/68/d0/a668d08adfed5e1d7167bef32e04cb4b.jpg);
 }
 
 
 .main{
 
-    background-color: greenyellow;
+    
     font-size: larger;
     grid-area: main;
     height: 900px;
     width:1500px;
     text-align: center;
+    background-image: url(https://i.pinimg.com/736x/8e/5a/8c/8e5a8c65c13fc3e98f365fe66ce496d0.jpg);
 }
 
 .rightMenu{
 
-background-color: rgb(139, 0, 35);
+
 
 grid-area: rightMenu;
 text-align: center;
+background-image:url(https://pbs.twimg.com/media/DyosvuDXgAA7gnT?format=jpg&name=large) ;
 }
 
 
@@ -84,6 +92,7 @@ background-color: darkorange;
 font-size: larger;
 grid-area: footer;
 
+text-align: center;
 }
 
 
