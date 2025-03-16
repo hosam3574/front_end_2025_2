@@ -4,31 +4,11 @@
 
 
 
-.button1{
-  
-  
-   
-  
-}
 
-.button2 {
-    left: 50%;
-    right: 60%;
-   text-align: right
-}
 
-.hosam{
-   padding-right: ;
-   padding-left: 0%;
-   width: 50px;
-   height: 50px;
-   padding-left: 0%;
-}
 
 
       
-
-
 .facebook{
     width:50px;
     height:50px;
@@ -47,11 +27,14 @@
 
 
 
+
+
 .nav{
-    background-color: brown;
+    
     font-size: larger;
     grid-area:nav;
-    
+    display: flex ;
+    align-items: center;
     
 }
 
@@ -107,3 +90,44 @@ grid-template-areas:
 
 
 }
+
+
+
+.navlist{
+    list-style: none;
+    display: flex ;
+}
+
+.navlist>li{
+
+margin-left: 290px;
+
+
+background-color: azure;
+padding: 15px;
+border-radius: 50px;
+
+
+
+
+}
+
+.navlist>li:hover{
+    background-color: brown;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
