@@ -39,7 +39,7 @@
 }
 
 .leftMenu{
-    background-color:yellow;
+
     font-size: larger;
     grid-area:leftMenu ;
     transform: ;
@@ -118,8 +118,27 @@ border-radius: 50px;
 
 
 
+.links{
+   list-style:none ;
+    
+}
 
 
+
+.links>ul>li{
+
+    
+margin: 10px;
+border-radius: 40px;
+align-items: center;
+background-color: white;
+padding: 105px;
+font-size: 20px;
+}
+
+.links>li:hover{
+    background-color: rgb(0, 136, 255);
+}
 
 
 
