@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://img.lovepik.com/png/20231104/Game-Mario-Ladder-action-electronics-video_491781_wh1200.png);
+background-size: cover;
+width: 60px;
+height: 10px;
+
+}
+
+.control{
+    font-size: 90px;
+}
+
+
+.controls{
+    font-size:90px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+}
+.marioWorld{
+    position: relative;
+}
+
+.mario{
+    position: absolute;
+    bottom:-450px ;
+    margin-left: 250px;
+}
