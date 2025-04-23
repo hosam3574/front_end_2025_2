@@ -1,5 +1,5 @@
 var mario=document.getElementById('mario')
-
+console.log(msrio)
 
 
 function moveUp(){
@@ -13,10 +13,14 @@ function moveDown(){
 
     function moveLift(){
         console.log("lift")
+        left = left-10
+        mario.style.left= left+'px'
+        console.log(mario.style.left) 
         
         }
 
         function moveRight(){
             console.log("right")
-            
-            }
+              left=left+10
+            mario.style.left=left+'px'
+        }
