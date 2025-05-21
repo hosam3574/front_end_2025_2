@@ -1,153 +1,46 @@
-/*body{
-    
-    background-image: url(https://bowwe.com/upload/domain/37991/images/101_BestRestaurantMenuTemplates/BOWWE-Article-Cover-Restaurant-Menu-Templates.webp ) ;
-
-
-}*/
-
-
-.logo{
-    width: 2500px;
-    height: 690px;
+.img{
+    width: 260px;
+    height: 460px;
+    z-index: 0;
+margin-left: 60px;
+border-radius: 850px;
 
 }
+
+
 
 .imgs{
-    margin-left: 1800px;
-
-    
+    width: 360px;
+    height: 660px;
+  z-index: 1;
+  margin-top:120px;
+  margin-left:40px;
 }
 
-.img1{
-    width:60px;
-    height: 60px;
-    margin-left: 500px;
-    text-decoration: none;
-    background-color:rgb(255, 196, 196) ;
-    border-radius: 300px;
-    padding: 15px;
-}
 
+
+.leftstudant{
+    display: flex;
+    margin-left: 45%;
+    align-items: center;
+ background-color: blueviolet;
+ width:350px;
+ height: 450px;
+ z-index: -1;
+ border-radius: 900px;
+}
 
 .img2{
-    width: 90px;
-    height: 90px;
-    background-color:rgb(255, 196, 196) ;
-    border-radius: 600px;
-    padding: 10px;
-    margin-left: 20px;
+    background-color: blue;
+    width:460px;
+    height: 900px;
+    z-index: -1;
+    border-radius:500px;
 }
-
-.img3{
-    width:50px;
-    height: 50px;
-    text-align: center;
-}
-
-
-
-.highest>ul{
-display: flex;
-margin-left: 200px;
-align-items: center;
-list-style: none;
-}
-
-.highest>ul>li{
-
-margin-left: 200px;
-font-size: 30px;
-
-
-}
-
-.highest>ul>li>a{
-    color: black;
-    text-decoration: none;
-    border-radius: 40px;
-    padding: 5px;
-}
-
-
-
-.highest>ul>li>:hover{
-background-color: lawngreen;
-}
-
-
-
-.writer{
-    margin-left: 150px;
-    font-size: 60px;
-}
-.writer2{
-    margin-left: 200px;
-    font-size: 30px;
-}
-
-
-.button1{
-
-border-radius: 500px;
-font-size: 40px;
-list-style: none;
-margin-left: 200px;
-background-color: green;
-padding: 20px;
-color: whitesmoke;
-
-}
-
-
-
-
-.b2{
-
-    border-radius: 20px;
-    font-size: 30px;
-    margin-left: 20px;
-    list-style: none;
-    background-color: white;
-    text-decoration: none;
-}
-
-
-
-.eat{
-    width: 900px;
-    height:900px;
-border-image: 600px;
-    margin-left: 1000px;
-}
-
-/* هون بلشت بلرسم لصغيرة مع السعر */
-
-
-
-
-
-.squr1{
-    text-align: center; 
-    align-items: center;
-    border-style: none;
-    border-radius: 310px;
-    text-decoration: none;
-    margin-left: 200px;
-}
-
-.squr2{
-    text-align: center; 
-    align-items: center;
-    border-style: none;
-    border-radius: 310px;
-    text-decoration: none;
-    margin-left: 200px;
-}
-
-
-.buttomimg{
-    width: 475px;
-    height: 475px;
-    background-color:white ;
-    color: white;
+.button{
+    z-index: 1;
+    margin-top: -200px;
+    border-radius: 30px;
+    border: 60px;
+    margin-right: 
 }
